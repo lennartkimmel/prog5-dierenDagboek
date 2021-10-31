@@ -6,11 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class CreatesPostUserPivotTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+
     public function up()
     {
         Schema::create('post_user', function (Blueprint $table) {
@@ -20,12 +16,7 @@ class CreatesPostUserPivotTable extends Migration
             $table->timestamps();
         });
     }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+    
     public function down()
     {
         Schema::dropIfExists('post_user');

@@ -2,7 +2,7 @@
 
 @section('content')
 <div>
-    @if(auth()->user()->likes->count() > 2) 
+    @if(auth()->user()->likes->count() > 4) 
         <div class="container">
             <div class="justify-content-center">
                 <div class="mb-1"><strong>{{ $posts->count()}} </strong> posts geplaatst</div>
@@ -59,7 +59,7 @@
             </div>
         </div>
     
-    @elseif(auth()->user()->likes->count() <=2) 
+    @elseif(auth()->user()->likes->count() <=4) 
 
         <div class="container">
             <div class="justify-content-center">
@@ -67,7 +67,7 @@
             </div>
             <div class="row pt-5">
                 @foreach($posts as $post)
-                    <div class="col-4 pb-4">
+                    <div class="col-4 pb-4 mt-1 mr-1 border border-dark">
                         <a href="/post/{{ $post->id }}" class="font-weight-bold text-dark">
                             <div class="font-weight-bold">{{$post->caption}}</div>
                         </a>

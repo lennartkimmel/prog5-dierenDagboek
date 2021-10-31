@@ -6,35 +6,17 @@
 
         <title>Mijn Dieren Dagboek</title>
 
-        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
                 background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2015/02/06/614637/4c053b6ff0518fb910b244a4184251dc.jpg");
-                color: #000;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 400;
-                height: 100vh;
-                margin: 0;
             }
 
             .full-height {
                 height: 100vh;
             }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
+ 
             .top-right {
                 position: absolute;
                 right: 10px;
@@ -54,16 +36,9 @@
                 border-style: solid;
                 background: #A9A9A9;
                 padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
+                font-size: 20px;
                 text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
+            }   
         </style>
     </head>
     <body>

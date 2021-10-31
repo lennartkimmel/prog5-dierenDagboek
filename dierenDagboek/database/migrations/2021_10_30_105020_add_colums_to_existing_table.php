@@ -6,11 +6,6 @@ use Illuminate\Support\Facades\Schema;
 
 class AddColumsToExistingTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
 
@@ -20,12 +15,7 @@ class AddColumsToExistingTable extends Migration
             });
 
     }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+    
     public function down()
     {
 

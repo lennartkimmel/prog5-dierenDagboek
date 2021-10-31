@@ -7153,7 +7153,9 @@ button.bg-dark:focus {
 
 .bg-white {
   background-color: #b87d0f !important;
-  background-image: url("https://images.hdqwalls.com/download/super-cute-animals-1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://lh3.googleusercontent.com/G-4ZrfQdsn2knYWcYj5d2cL1aNu-0ZfME6Nmqc15KMHYUoZbmW2ggpUPNUAf-JFBVmuAFQ=s170" );
 }
 
 .bg-transparent {
@@ -8878,6 +8880,11 @@ button.bg-dark:focus {
 .pl-5,
 .px-5 {
   padding-left: 3rem !important;
+}
+
+.pl-10,
+.px-10 {
+  padding-left: 8rem !important;
 }
 
 .m-n1 {

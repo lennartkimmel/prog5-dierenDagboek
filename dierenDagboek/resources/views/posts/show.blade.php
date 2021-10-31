@@ -15,7 +15,7 @@
 
         </div>
         <div class="col-4 pt-2 font-weight-bold">
-            <a href="/post">Terug naar alle posts</a>
+            <a class="btn btn-primary" href="/post">Terug naar alle posts</a>
     </div>
 </div>
 @endsection
