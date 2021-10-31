@@ -5,8 +5,9 @@
     @if(auth()->user()->likes->count() > 2) 
         <div class="container">
             <div class="justify-content-center">
-                <div><strong>{{ $posts->count()}} </strong> posts</div>
+            <div class="mb-1"><strong>{{ $posts->count()}} </strong> posts geplaatst</div>
                 
+                <div class="card pl-5 pt-1">
                 <form action="/post/searched" method="get">
                     <div class="form-group row">
                         <label for="search" class="col-md-4 col-form-label">{{ ('Search:') }}</label>
@@ -36,6 +37,7 @@
                         <button class="btn btn-outline-success">Filter posts!</button>
                     </div>
                 </form>
+</div>
             </div>
     
 
